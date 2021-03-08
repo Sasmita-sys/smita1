@@ -1,0 +1,200 @@
+p{
+	font-size: 34px;
+	margin-bottom: 0.3em ;
+}
+p1{
+	font-size: 18px;
+}
+p2{
+	font-size: 20px;
+	position: absolute;
+	top: 15px;
+	left: 40px;
+}
+p3{
+	font-size: 18px;
+	position: absolute;
+	top: 55px;
+	left: 20px;
+	right: 20px;
+}
+p4{
+	font-size: 28px;
+	color: white;
+	position: absolute;
+	top: 80px;
+	left: 940px;
+}
+p5{
+	font-size: 18px;
+	position: absolute;
+	top: 10px;
+	left: 20px;
+}
+p6{
+	font-size: 14px;
+	color: white;
+	position: absolute;
+	left: 600px;
+}
+body {
+	font-family: Arial, Calibri;
+}
+#bg {
+	height: 900px;
+	width: auto;
+	overflow: hidden;
+	position: relative;
+}
+.card {
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5), 0 4px 30px 0 rgba(0, 0, 0, 0.5);
+}
+#plate{
+	top: 50px;
+	left: 90px;
+	width: 792px;
+	height: 770px;
+	position: absolute;
+	overflow: hidden;
+	border-radius: 3%;
+}
+img{
+	position: absolute;
+}
+#pp{
+	top: 90px;
+	left: 90px;
+	object-fit: cover;
+	object-position: 0px 50%;
+	border-radius: 50%;
+}
+#bio{
+	overflow: hidden;
+	position: relative;
+	background: #d9d9d9;
+	height: 600px;
+	width: 792px;
+	top: 190px;
+}
+#nama{
+	position: absolute;
+	font-family: Calibri Light;
+	top: 80px;
+	left: 50px;
+}
+#desc{
+	position: absolute;
+	background: #b3b3b3;
+	font-family: Calibri Light;
+	top: 240px;
+	left: 20px;
+	height: 320px;
+	width: 750px;
+	border-radius: 0% 0% 6% 6%;
+}
+#more{
+	display: none;
+}
+#fl{
+	position: absolute;
+	opacity: 70%;
+	background: #b3b3b3;
+	font-family: Helvetica;
+	top: 50px;
+	left: 900px;
+	height: 380px;
+	width: 380px;
+	border-radius: 3%;
+}
+/*.marg{
+	position: absolute;
+	background: #d9d9d9;
+	font-family: Arial;
+	height: 50px;
+	width: 300px;
+}*/
+#fl1{
+	top: 80px;
+	left: 40px;
+}
+#fl5{
+	position: absolute;
+	font-family: Arial;
+	height: 90px;
+	width: 300px;
+	top: 280px;
+	left: 40px;
+}
+a:link, a:visited {
+  background-color: #b3b3b3;
+  color: black;
+  border: 2px solid green;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  position: absolute;
+  top: 40px;
+  left: 100px;
+}
+
+a:hover, a:active {
+  background-color: green;
+  position: absolute;
+  color: white;
+  top: 40px;
+  left: 100px;
+}
+#task{
+	position: absolute;
+	top: 100px;
+	left: 500px;
+	object-fit: cover;
+	font-size: 20px;
+	font-family: Helvetica;
+}
+button{
+	background-color: #b3b3b3;
+	color: black;
+	border: 2px solid green;
+	padding: 5px 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	position: absolute;
+	top: 180px;
+	left: 20px;
+}
+#login{
+	top: 90px;
+	left: 40px;
+	position: absolute;
+	font-family: Arial;
+	height: auto;
+	width: auto;
+}
+#quiz-form{
+	top: 80px;
+	left: 75px;
+	position: absolute;
+	font-family: Arial;
+	height: auto;
+	width: auto;
+}
+input.submit{
+	position: absolute;
+	top: 120px;
+	left: 50px;
+}
+footer{
+	position: absolute;
+	opacity: 70%;
+	text-align: center;
+	background: #b3b3b3;
+	font-family: Helvetica;
+	top: 460px;
+	left: 908px;
+	height: 366px;
+	width: 380px;
+	border-radius: 3%;
+}
